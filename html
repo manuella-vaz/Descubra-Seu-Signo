@@ -1,0 +1,50 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="manuella vaz">
+    <link rel="stylesheet" href="css/calen.css">
+    <script src="js/calen.js" defer></script>
+    <title>Calendário Online</title>
+    </head>
+<body>
+    <section class="container">
+        <form>
+            <h1 class="title">O dia em que nasci</h1>
+            <div class="dia">
+                <label for="txtdia">Informe o dia em que nasceu:</label>
+                <input type="number" id="txtdia">
+            </div>
+            <div class="mes">
+                <label for="txtmes">Informe o mês em que nasceu:</label>
+                <input type="number" id="txtmes">
+            </div>
+            <div class="ano">
+                <label for="txtano">Informe o ano em que nasceu:</label>
+                <input type="number" id="txtano">
+            </div>
+            <h1 class="results">Resultados:</h1>
+            <div class="mes-2">
+                <label for="txtmes2">Seu mês de nasc. é:</label>
+                <input type="text" id="txtmes2" disabled>
+            </div>
+            <div class="dia-semana">
+                <label for="txtdia-sem">Seu dia da semana foi:</label>
+                <input type="text" id="txtdia-sem" disabled>
+            </div>
+            <div class="idade">
+                <label for="txtidade">E a sua idade é:</label>
+                <input type="number" id="txtidade" disabled>
+            </div>
+            <div class="signo">
+                <label for="txtsigno">Sobre o signo de:</label>
+            </div>
+            
+            <div class="imagem">
+                <img src="  " id="signo-img" name="foto">
+            </div>
+            <div class="buttons">
+                <input class="btn" type="button" id="btExibir" value="Exibir" onclick="Calculate()" />
+            </div>
+        </form>
+    </section>
+</body>
